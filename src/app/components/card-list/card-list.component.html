@@ -1,0 +1,15 @@
+<div class="add-button-container">
+  <button mat-raised-button color="accent" (click)="addCard()">Add New Card</button>
+</div>
+<div class="card-container">
+  <mat-card *ngFor="let card of cards" class="card">
+    <mat-card-title>{{ card.title }}</mat-card-title>
+    <mat-card-content>
+      <p>{{ card.description }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="editCard(card)">Edit</button>
+      <button mat-raised-button color="warn" (click)="deleteCard(card.id)">Delete</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
