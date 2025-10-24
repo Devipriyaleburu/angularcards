@@ -22,33 +22,33 @@
 
   "dependencies": {
 
-    "@angular-devkit/architect": "^0.1703.7",
+    "@angular-devkit/architect":"^0.1703.7",
 
     "@angular-devkit/core": "^17.3.7",
 
-    "@angular/animations": "^17.3.17",
+    "@angular/animations": "^17.0.0",
 
-    "@angular/cdk": "^17.3.17",
+    "@angular/cdk": "^17.0.0",
 
-    "@angular/common": "^17.3.17",
+    "@angular/common": "^17.0.0",
 
-    "@angular/compiler": "^17.3.17",
+    "@angular/compiler": "^17.0.0",
 
-    "@angular/core": "^17.3.17",
+    "@angular/core": "^17.0.0",
 
-    "@angular/forms": "^17.3.17",
+    "@angular/forms": "^17.0.0",
 
-    "@angular/material": "^17.3.17",
+    "@angular/material": "^17.0.0",
 
-    "@angular/platform-browser": "^17.3.17",
+    "@angular/platform-browser": "^17.0.0",
 
-    "@angular/platform-browser-dynamic": "^17.3.17",
+    "@angular/platform-browser-dynamic": "^17.0.0",
 
-    "@angular/platform-server": "^17.3.17",
+    "@angular/platform-server": "^17.0.0",
 
-    "@angular/router": "^17.3.17",
+    "@angular/router": "^17.0.0",
 
-    "@angular/ssr": "^17.3.17",
+    "@angular/ssr": "^17.0.0",
 
     "@ngtools/webpack": "^17.3.7",
 
@@ -82,7 +82,7 @@
 
     "@angular/cli": "^17.3.17",
 
-    "@angular/compiler-cli": "^17.3.17",
+    "@angular/compiler-cli": "^17.0.0",
 
     "@types/jasmine": "~5.1.0",
 
@@ -102,14 +102,7 @@
 
     "typescript": "~5.2.0"
 
-  },
-
-  "engines": {
-
-    "node": "20.x"
-
   }
 
 }
-
  
